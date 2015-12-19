@@ -1,0 +1,15 @@
+{
+  "name": "tcomb-form-types",
+  "version": "1.0.0",
+  "description": "Adds Types/Validations for tcomb-form",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Industrial/tcomb-form-types.git"
+  },
+  "author": "Tom Wieland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Industrial/tcomb-form-types/issues"
+  },
+  "homepage": "https://github.com/Industrial/tcomb-form-types#readme"
+}
