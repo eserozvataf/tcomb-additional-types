@@ -1,3 +1,5 @@
+## Update: I'm no longer using tcomb-form. I'm looking somebody that will replace me as the author/maintainer of this project.
+
 Exports types for [tcomb-form](https://github.com/gcanti/tcomb-form).
 
 ## Installation
