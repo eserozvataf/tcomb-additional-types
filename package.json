@@ -1,24 +1,88 @@
 {
-  "name": "tcomb-form-types",
-  "version": "1.1.0",
-  "description": "Adds Types/Validations for tcomb-form",
-  "main": "index.js",
+  "name": "tcomb-additional-types",
+  "description": "Additional types for tcomb",
+  "keywords": [
+    "tcomb",
+    "additional",
+    "extra",
+    "validation",
+    "type",
+    "types",
+    "safety",
+    "model",
+    "store",
+    "checking",
+    "definition",
+    "schema",
+    "number",
+    "string",
+    "decimal",
+    "float",
+    "hexadecimal",
+    "integer",
+    "alpha",
+    "alphanumeric",
+    "base64",
+    "credit",
+    "card",
+    "domain",
+    "email",
+    "hex",
+    "color",
+    "ip",
+    "isbn",
+    "json",
+    "lower",
+    "upper",
+    "case",
+    "mac",
+    "address",
+    "md5",
+    "mobile",
+    "phone",
+    "mongo",
+    "id",
+    "url",
+    "uuid",
+    "guid",
+    "iso8601"
+  ],
+  "version": "0.0.1",
+  "homepage": "",
+  "author": "Eser Ozvataf <eser@ozvataf.com>",
+  "contributors": [
+    {
+      "name": "Eser Ozvataf",
+      "email": "eser@ozvataf.com",
+      "url": "http://eser.ozvataf.com/"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Industrial/tcomb-form-types.git"
+    "url": "git+https://github.com/eserozvataf/tcomb-additional-types.git"
   },
-  "author": "Tom Wieland",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Industrial/tcomb-form-types/issues"
+    "url": "https://github.com/eserozvataf/tcomb-additional-types/issues",
+    "email": "eser@ozvataf.com"
   },
-  "homepage": "https://github.com/Industrial/tcomb-form-types#readme",
+  "license": "Apache-2.0",
+  "main": "./lib/index.js",
+  "module": "./lib/esm.js",
+  "types": "./lib/index.d.ts",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {},
   "dependencies": {
-    "tcomb-form": "^0.7.10",
-    "validator": "^4.4.0"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "id-builder": "^3.0.0"
+    "tcomb": "^3.2.22",
+    "validator": "^8.0.0"
   }
 }
