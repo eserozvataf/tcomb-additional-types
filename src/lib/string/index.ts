@@ -15,6 +15,7 @@ import { MacAddress } from './mac-address';
 import { MD5 } from './md5';
 import { MobilePhone } from './mobile-phone';
 import { MongoId } from './mongo-id';
+import { Nullable } from './nullable';
 import { UpperCase } from './upper-case';
 import { URL } from './url';
 import { UUID } from './uuid';
@@ -37,6 +38,7 @@ export {
     MD5,
     MobilePhone,
     MongoId,
+    Nullable,
     UpperCase,
     URL,
     UUID,

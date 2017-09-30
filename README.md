@@ -31,6 +31,8 @@ const test = t.struct({
   md5: tx.String.MD5,
   mobilephone: tx.String.MobilePhone,
   mongoid: tx.String.MongoId,
+  null: tx.Null,
+  nullable: tx.String.Nullable,
   url: tx.String.URL,
   uuid: tx.String.UUID,
   uppercase: tx.String.UpperCase,
